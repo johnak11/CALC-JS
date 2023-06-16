@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="calc" class="container text-center my-5"><b>CALCULATOR</b></p>
+      
+        <div class="container whole">
+            <input type="text" id="output" placeholder="0" class="box">
+        <br>
+        <div class="container rowa">
+        
+            <button onclick="document.getElementById('output').value =''">AC</button>
+            <button onclick="document.getElementById('output').value +='**'">^</button>
+            <button onclick="document.getElementById('output').value +='%'">%</button>
+            <button onclick="document.getElementById('output').value +='/'">/</button>
+        
+        </div>
+
+        <br>
+
+        <div class="container rowb">
+        <p>
+            <button onclick="document.getElementById('output').value +='7'">7</button>
+            <button onclick="document.getElementById('output').value +='8'">8</button>
+            <button onclick="document.getElementById('output').value +='9'">9</button>
+            <button onclick="document.getElementById('output').value +='*'">*</button>
+        </p>
+        </div>
+
+        <div class="container rowc">
+        <p>
+            <button onclick="document.getElementById('output').value +='4'">4</button>
+            <button onclick="document.getElementById('output').value +='5'">5</button>
+            <button onclick="document.getElementById('output').value +='6'">6</button>
+            <button onclick="document.getElementById('output').value +='-'">-</button>
+        </p>
+        </div>
+
+        <div class="container rowd">
+            <p>
+        <button onclick="document.getElementById('output').value +='1'">1</button>
+        <button onclick="document.getElementById('output').value +='2'">2</button>
+        <button onclick="document.getElementById('output').value +='3'">3</button>
+        <button onclick="document.getElementById('output').value +='+'">+</button>
+            </p>    
+        </div>
+
+        <div class="container rowe">
+        <p>
+        <button onclick="document.getElementById('output').value +='+/-'">+/-</button>
+        <button onclick="document.getElementById('output').value +='0'">0</button>
+        <button onclick="document.getElementById('output').value +='.'">.</button>
+       <button onclick="document.getElementById('output').value= eval(document.getElementById('output').value )">=</button>
+        </p>
+        </div>
+    </div>
+    
+
+    
+    <script>
+        let outputE1 = document.getElementById('output');  
+          console.log(outputE1.value)
+
+
+    let calc= document.getElementById('calc');
+    console.log(calc.innerHTML)
+   
+
+    </script>
+ 
+    
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

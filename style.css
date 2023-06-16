@@ -1,0 +1,43 @@
+.whole{
+    border: 6px solid black;
+    background-color: rgba(0, 0, 0, 0.781);
+    border-radius: 50px;
+    padding: 15px;
+    width: fit-content;
+}
+
+.box{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.rowa button{
+    border: none;
+    background-color: bisque;
+    padding: 15px;
+}
+
+.rowb button{
+    border: none;
+    background-color: turquoise;
+    padding: 15px;
+}
+
+.rowc button{
+    border: none;
+    background-color: turquoise;
+    padding: 15px;
+}
+
+.rowd button{
+    border: none;
+    background-color: turquoise;
+    padding: 15px;
+}
+
+.rowe button{
+    border: none;
+    background-color: bisque;
+    padding: 15px;
+}
